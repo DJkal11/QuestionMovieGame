@@ -1,0 +1,64 @@
+https://dgeiu3fz282x5.cloudfront.net/g/x/x-19890.jpg
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100vw;
+   height: 100vh;
+}
+.container {
+    background-image: url("https://dgeiu3fz282x5.cloudfront.net/g/x/x-19890.jpg");
+    width: 500px;
+    max-width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#question {
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    background-color: rgb(199, 71, 32);
+    border-radius: 5px;
+    padding: 10px 15px;
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+.btn:hover {
+    border-color: black;
+}
+
+#start-btn {
+    position: relative;
+    bottom: 250px;
+    right: 250px; 
+
+}
+#next-btn {
+    position: relative;
+    top: 110px;
+    right: 245px;
+}

@@ -1,0 +1,364 @@
+
+/*# sourceMappingURL=index.css.map */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700|Pacifico|Changa+One);
+  
+ 
+.cat {
+    position: absolute;
+    left: 40%;
+    bottom: 70%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: honeydew;
+}
+
+.frontimg {
+    border: solid 7px #ffffff;
+    width: 450px;
+    margin-top: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
+}
+
+.begin {
+    position: absolute;
+    top: 90%;
+}
+
+.top {
+    color: white;
+    background: #095fe9;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+
+    
+    padding: 5px 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20pt;
+    outline: none;
+}
+
+.top:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-offset: 15px;
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388;
+}
+
+  
+
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+
+.heading{
+    font-size: 40px;
+    padding-left: 450px;
+    border: solid 7px #41403E;
+    background-color:#41403E;
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 600px;
+}
+
+h1 {
+    border: solid 7px #c7c6c4;
+    margin-right: 430px;
+    color: #c7c6c4;
+    padding-top: 18px ;
+    padding-bottom: 19px;
+    height: auto;
+    font-size: 80px;
+}
+
+
+:root {
+    --hue-neutral: 39 ;
+    --hue-wrong: 0;
+    --hue-correct: 120;
+   }
+ 
+   
+body {
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 0;
+    margin: 0px;
+   
+    display: flex;
+    width: 100vw;
+   height: 100vh;
+   justify-content: center;
+    align-items: center;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 70%, 83%) ;
+}
+
+body.correct {
+    --hue: var(--hue-correct);  
+}
+body.wrong {
+    --hue: var(--hue-wrong);  
+}  
+   
+.container {
+    background-image: url("https://dgeiu3fz282x5.cloudfront.net/g/x/x-19890.jpg");
+    width: 500px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    position: absolute;
+    right: 55%;
+    border: solid 7px #ffffff;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+#question {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 30px 55px;
+    border:solid 7px #41403E;
+    display:block;
+    
+
+}
+
+#question1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 30px 35px;
+    border:solid 7px #41403E;
+    display:block;
+
+
+}
+
+#question2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 30px 135px;
+    border:solid 7px #41403E;
+    display:block;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-offset: 15px;
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    
+
+    color: white;
+    background: #095fe9;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+
+    
+    padding: 5px 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20pt;
+    outline: none;
+}
+.btn:hover {
+    border-color: black;
+}
+.btn.correct {
+    background-color: rgb(73, 251, 53);
+    color: black;
+}
+.btn.wrong {
+    background-color: red; 
+}
+
+.hide {
+    display: none;
+}
+
+.start-btn,.next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+   
+  position: absolute;
+  top: 90%;
+  text-align: center;
+  width: 100%;
+}
+
+.contain {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d3c3ca5a-f0af-4263-aa1a-c1042ce4d2a7/d64rbwg-84fa8e6b-cfd7-45f5-9f9d-edb07682caba.jpg/v1/fill/w_1024,h_531,q_75,strp/anime_manga_mashup__1_by_pademo_d64rbwg-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01MzEiLCJwYXRoIjoiXC9mXC9kM2MzY2E1YS1mMGFmLTQyNjMtYWExYS1jMTA0MmNlNGQyYTdcL2Q2NHJid2ctODRmYThlNmItY2ZkNy00NWY1LTlmOWQtZWRiMDc2ODJjYWJhLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.dZNQIBVVyo-RvBAkdLhmf5BHC8AN3DAEnDH3ie5quw0"); 
+
+    position: absolute;
+    left: 55%;
+}
+
+.narutocontainer {
+    background-image: url("https://wallpaperaccess.com/full/8006.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    position: absolute;
+    left: 55%;
+    border: solid 7px #ffffff;
+}
+
+.dbcontainer {
+    background-image: url("https://files.wallpaperpass.com/2019/10/dbz%20wallpaper%20151%20-%201152x962.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    position: absolute;
+    right: 55%; 
+    border: solid 7px #ffffff;  
+}
+
+#choose-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: absolute;
+    top: 90%;
+}
+ 
+.fitpagenaruto {
+    background-image: url("https://cdn.wallpapersafari.com/44/21/ARctmw.jpg");
+   
+    width: 100vw;
+   height: 100vh;
+ }
+
+ .fitpagedb {
+    background-image: url("https://img.wallpapersafari.com/desktop/1280/1024/28/4/D3M6WV.jpg");
+    width: 100vw;
+   height: 100vh;
+    
+ }
+
+ .fitpagemarvel {
+    background-image: url("https://www.homeflairdecor.co.uk/image/cache/data/1200px/muriva/marvel/159501_s-max-1920w.jpg");
+   
+    width: 100vw;
+   height: 100vh;
+ }
+
+ .back-btn {
+    position: absolute;
+    top: 90%; 
+    left:2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+ 
+#question-container1 {
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    
+}
+
+#question-container2 {
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+    
+}
+
+#question-container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 300px;
+    
+}
+
+.marvelscore {
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 300px;
+    
+    
+}
+
+#Start-btn1{
+    margin-left: -30px;
+}
+
+#Start-btn2{
+    margin-left: -30px;
+}

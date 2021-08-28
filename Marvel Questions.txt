@@ -1,0 +1,233 @@
+{
+    question2: 'Who said "You people are so petty and tiny"?',
+    answers2: [
+        {text: 'Thor', correct: false},
+        {text: 'Captain America', correct: false},
+        {text: 'Bruce Banner', correct: true},
+        {text: 'Nick Fury', correct: false}
+    ]
+},
+{
+    question2: 'Who said "And Hulk... smash!"?',
+    answers2: [
+        {text: 'Thor', correct: false},
+        {text: 'Captain America', correct: true},
+        {text: 'Tony Stark', correct: false},
+        {text: 'Nick Fury', correct: false}
+    ]
+},
+{
+    question2: 'Who said "As much as I hate to admit it: if we're gonna win this fight, some of us might have to lose it"?',
+    answers2: [
+        {text: 'Bucky Barnes', correct: false},
+        {text: 'Captain America', correct: true},
+        {text: 'Sam Wilson', correct: false},
+        {text: 'Clint Barton', correct: true}
+    ]
+},
+{
+    question2: 'Who said "Bunch of jackasses standing in a circle!"?',
+    answers2: [
+        {text: 'Drax', correct: false},
+        {text: 'Peter Quill', correct: false},
+        {text: 'Gamora', correct: false},
+        {text: 'Rocket', correct: true}
+    ]
+},
+{
+    question2: 'Who said "And what did the book say about the dangers of performing that ritual?"',
+    answers2: [
+        {text: 'Wong', correct: true},
+        {text: 'The Ancient One', correct: false},
+        {text: 'Baron Mordo', correct: false},
+        {text: 'Kaecilius', correct: false}
+    ]
+},
+{
+    question2: 'Who said "This is weird, we got a Sovereign fleet approaching from the rear"?',
+    answers2: [
+        {text: 'Rocket', correct: false},
+        {text: 'Peter Quill', correct: true},
+        {text: 'Drax', correct: false},
+        {text: 'Gamora', correct: false}
+    ]
+},
+{
+    question2: 'Who said "It is not wise to keep two Infinity Stones so close together"?',
+    answers2: [
+        {text: 'Hogun', correct: false},
+        {text: 'Sif', correct: false},
+        {text: 'Volstagg', correct: true},
+        {text: 'Tony Stark', correct: false}
+    ]
+},
+{
+    question2: 'Who said "He's a friend from work!"?',
+    answers2: [
+        {text: 'Thor', correct: true},
+        {text: 'Captain America', correct: false},
+        {text: 'Tony Stark', correct: false},
+        {text: 'Falcon', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Get this man a shield"?',
+    answers2: [
+        {text: 'Tony Stark', correct: false},
+        {text: 'Falcon', correct: false},
+        {text: 'Black Panther', correct: true}
+    ]
+},
+{
+    question2: 'Who said "I am inevitable"?',
+    answers2: [
+        {text: 'Kilmonger', correct: false},
+        {text: 'Ultron', correct: false},
+        {text: 'Thanos', correct: true},
+        {text: 'Red Skull', correct: false}
+    ]
+},
+{
+    question2: 'Who said "I've mastered the ability of standing so incredibly still that I become invisible to the eye."?',
+    answers2: [
+        {text: 'Star Lord', correct: false},
+        {text: 'Thor', correct: false},
+        {text: 'Rocket', correct: false},
+        {text: 'Drax', correct: true}
+    ]
+},
+{
+    question2: 'Who said "The Wi-Fi password. We’re not savages."?',
+    answers2: [
+        {text: 'Black Widow', correct: false},
+        {text: 'Mordo', correct: true},
+        {text: 'Tony Stark', correct: false},
+        {text: 'Drax', correct: false}
+    ]
+},
+{
+    question2: 'Who said “I live for the simple things… like how much this is gonna hurt.”?',
+    answers2: [
+        {text: 'Kilmonger', correct: false},
+        {text: 'Rocket', correct: true},
+        {text: 'Gamora', correct: false},
+        {text: 'Thor', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Thank you, sweet rabbit."?',
+    answers2: [
+        {text: 'Thor', correct: true},
+        {text: 'Captain America', correct: false},
+        {text: 'Drax', correct: false},
+        {text: 'Spider-Man', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Hey guys, have you ever seen that really old movie, Empire Strikes Back?"?',
+    answers2: [
+        {text: 'Ant-Man', correct: false},
+        {text: 'Tony Stark', correct: false},
+        {text: 'Thor', correct: false},
+        {text: 'Spider-Man', correct: true}
+    ]
+},
+{
+    question2: 'Who said "I have been falling, for thirty minutes!"?',
+    answers2: [
+        {text: 'Drax', correct: false},
+        {text: 'Ant-Man', correct: false},
+        {text: 'Loki', correct: true},
+        {text: 'Thor', correct: false}
+    ]
+},
+{
+    question2: 'Who said "We have a Hulk"?',
+    answers2: [
+        {text: 'Tony Stark', correct: true},
+        {text: 'Captain America', correct: false},
+        {text: 'Black Widow', correct: false},
+        {text: 'Hawkeye', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Nothing goes over my head. My reflexes are too fast, I would catch it."?',
+    answers2: [
+        {text: 'Loki', correct: false},
+        {text: 'Rocket', correct: false},
+        {text: 'Thor', correct: false},
+        {text: 'Drax', correct: true}
+    ]
+},
+{
+    question2: 'Who said "There's an Ant-Man and a Spider-Man"?',
+    answers2: [
+        {text: 'Doctor Strange', correct: false},
+        {text: 'Bruce Banner', correct: true},
+        {text: 'Nick Fury', correct: false},
+        {text: 'Falcon', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Uh...genius, billionaire, playboy, philanthropist"?',
+    answers2: [
+        {text: 'War Machine', correct: false},
+        {text: 'Hogan', correct: false},
+        {text: 'Tony Stark', correct: true},
+        {text: 'Spider-Man', correct: false}
+    ]
+},
+{
+    question2: 'Who said "Why was she up there this whole time"?',
+    answers2: [
+        {text: 'Black Widow', correct: false},
+        {text: 'Scarlet Witch', correct: false},
+        {text: 'Captain America', correct: false},
+        {text: 'Okoye', correct: true}
+    ]
+},
+{
+    question2: 'Who said "I told you, I don't want to join your super secret boy band."?',
+    answers2: [
+        {text: 'Star-Lord', correct: false},
+        {text: 'Tony Stark', correct: true},
+        {text: 'Spider-Man', correct: false},
+        {text: 'Doctor Strange', correct: false}
+    ]
+},
+{
+    question2: 'Who said "I had strings but now I'm free"?',
+    answers2: [
+        {text: 'Ultron', correct: true},
+        {text: 'Thanos', correct: false},
+        {text: 'Mordo', correct: false},
+        {text: 'Ghost', correct: false}
+    ]
+},
+{
+    question2: 'Who said "I'm always angry"?',
+    answers2: [
+        {text: 'Hawkeye', correct: false},
+        {text: 'The Winter Soldier', correct: false},
+        {text: 'Bruce Banner', correct: true},
+        {text: 'Black Panther', correct: false}
+    ]
+},
+{
+    question2: 'Who said "You get killed, walk it off"?',
+    answers2: [
+        {text: 'Black Widow', correct: false},
+        {text: 'Nick Fury', correct: false},
+        {text: 'Captain America', correct: true},
+        {text: 'Tony Stark', correct: false}
+    ]
+},
+{
+    question2: 'Who said "You get killed, walk it off"?',
+    answers2: [
+        {text: 'Black Widow', correct: false},
+        {text: 'Nick Fury', correct: false},
+        {text: 'Captain America', correct: true},
+        {text: 'Tony Stark', correct: false}
+    ]
+},
